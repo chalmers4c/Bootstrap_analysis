@@ -55,5 +55,3 @@ Full transforamtion process:
 
 Only beginning and end process:
 ![Example data - Copy (2)_figure_06_plot_of_differences](https://github.com/chalmers4c/Bootstrap_analysis/assets/97460687/248d9297-27ac-4f7f-a585-4985ead48646)
-
-# Acknowledgements
