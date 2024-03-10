@@ -1,11 +1,36 @@
 # Bootstrap_analysis
 Python script to perform bootstrap analysis.
 
-
 # Original Tutorial
 The original tutorial on the construction of the script can be found in the following link:
 [https://thenode.biologists.com/quantification-of-differences-as-alternative-for-p-values/research/]
 The original uses R to plot, here the same things is reconstructed but using python.
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import tkinter as tk
+from tkinter import filedialog
+from palettable.cartocolors.qualitative import Vivid_10
+import matplotlib.ticker as ticker
+import math
+import ptitprince as pt
+from cmcrameri import cm
+import cmasher as cmr
+import os
+
+# Packages
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - tkinter
+  - palettable [https://pypi.org/project/palettable/]
+  - ptitprince [https://pypi.org/project/ptitprince/]
+  - cmcrameri [https://pypi.org/project/cmcrameri/]
+  - cmasher [https://pypi.org/project/cmasher/]
+
+Note: ptitprince relies on older version of seaborn (before 0.12)
 
 # Input
 It will take columns of data from an excel, see example data. The default reference column for comparison is the first column.
